@@ -10,6 +10,8 @@ import javax.sql.DataSource;
 @Configuration
 @ComponentScan(value={"com.nagesh.jdbc.dao"})
 public class Config {
+	
+	//Test by nagesh
 			
 		@Bean
 		public DataSource getDataSource(){
